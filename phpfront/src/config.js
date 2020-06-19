@@ -5,7 +5,7 @@ const config = {
 };
 
 if (process.env.NODE_ENV !== 'production') {
-  config.apiEndpoint = 'http://127.0.0.1:8000'
+  config.apiEndpoint = 'http://54.151.152.77'
 }
 
 export default config;

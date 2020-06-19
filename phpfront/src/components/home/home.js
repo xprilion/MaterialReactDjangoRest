@@ -60,7 +60,7 @@ class HomeClass extends React.Component {
 
   componentDidMount() {
     const self = this;
-    axios.get("http://127.0.0.1:8000/api/settings").then((res) => {
+    axios.get("http://54.151.152.77/api/settings").then((res) => {
       self.setState({ settings: res.data });
       self.setState({ settingsLoading: false });
 

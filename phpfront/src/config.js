@@ -5,7 +5,7 @@ const config = {
 };
 
 if (process.env.NODE_ENV !== 'production') {
-  config.apiEndpoint = 'http://54.151.152.77'
+  config.apiEndpoint = 'https://6aa133ffa113.ngrok.io'
 }
 
 export default config;

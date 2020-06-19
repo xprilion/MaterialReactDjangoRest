@@ -84,7 +84,7 @@ class SettingsClass extends React.Component {
 
   componentDidMount() {
     const self = this;
-    axios.get("http://54.151.152.77/api/settings").then((res) => {
+    axios.get("https://6aa133ffa113.ngrok.io/api/settings").then((res) => {
       console.log(res);
       self.setState({ banner: res.data.banner });
       self.setState({ contactmail: res.data.contactmail });

@@ -1,7 +1,5 @@
 const config = {
-  apiEndpoint: 'https://api.svyper.co/',
-  mediaEndpoint: 'https://storage.bunnycdn.com',
-  staticEndpoint: 'https://static.svyper.co'
+  apiEndpoint: 'https://6aa133ffa113.ngrok.io'
 };
 
 if (process.env.NODE_ENV !== 'production') {
